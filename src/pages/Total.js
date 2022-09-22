@@ -1,10 +1,13 @@
-import React from 'react'
-import Swiper from 'swiper'
+
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
 
 const Total = () => {
   return (
-    <div>Total</div>
+    <div className='Total'>
+      <h2>TOTAL PRODUCT</h2>
+    </div>
   )
 }
 
-export default Total
+export default Total;
