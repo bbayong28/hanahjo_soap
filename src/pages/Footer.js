@@ -8,7 +8,7 @@ const Footer = () => {
         <div className='logo'>
           <img src={process.env.PUBLIC_URL+ '/assets/images/logo_w.png'} alt="" />
         </div>
-        <div className="top">
+        <div className="up">
           <ul>
             <li><a href="/">COMPANY </a></li>
             <li><a href="/">AGREEMENT</a></li>
@@ -16,13 +16,13 @@ const Footer = () => {
             <li><a href="/">PRIVACY POLICY</a></li>
           </ul>
         </div>
-        <div className="middle">
+        <div className="down">
           <div className="top">
             <span>COMPANY 한아조 주식회사</span>
             <span>OWNER 김상만, 조한아</span>
             <span> TEL 070-7727-7117</span>
             <span>LUNCH BREAK 12:00~13:00</span>
-          <span>E-MAIL hanah@hanahzo.com</span>
+            <span>E-MAIL hanah@hanahzo.com</span>
           </div>            
           <div className="middle">
             <span>BUSINESSNUMBER 527-86-02282</span>             
