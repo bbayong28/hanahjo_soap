@@ -151,23 +151,23 @@ h2{
     color: #f7f7f7;
     .container{
         text-align: center;
-        i{
-            font-size: 21x;
+        .logo{
+            margin-bottom: 20px;
         }
-        .top{
+        /* i{
+            font-size: 21x;
+        } */
+        .up{
             margin-bottom: 10px;
             ul{
                 display: flex;
                 justify-content: center;
                 gap: 30px;
             }
-        }
-        .middle{            
-            margin-bottom: 20px;
-            span{
-                display: inline-block;
-                margin-right: 20px;
-            }
+        
+        .copy{
+            font-size: 13px;
+            font-weight: 300;
         }
     }
 
